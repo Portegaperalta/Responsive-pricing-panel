@@ -148,8 +148,223 @@ table {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .plans {
     display: flex;
+    flex-direction: column;
+}
+
+.personal-plan-box {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.personal-plan-title {
+    margin-bottom: 30px;
+}
+
+.personal-plan-title h1 {
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.personal-plan-benefits {
+    margin-bottom: 25px;
+}
+
+.personal-plan-benefits ul li:nth-child(1) {
+    color: #016ff9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
+    line-height: 1.5;
+}
+
+.personal-plan-benefits ul li:nth-child(2) {
+    color: #016ff9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1f1ff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.personal-plan-price {
+    color: #016ff9;
+    font-weight: 700;
+    font-size: 32px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.personal-plan-button {
+    margin: 25px;
+}
+
+.personal-plan-button a {
+    text-decoration: none;
+    color: #348efe;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px 35px;
+    transition: all 200ms ease-in-out;
+}
+
+.personal-plan-button a:hover {
+    color: #fff;
+    background-color: #016ff9;
+    border-color: #016ff9;
+}
+
+.small-team-box {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.small-team-plan-title {
+    margin-bottom: 30px;
+}
+
+.small-team-plan-title h2 {
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.small-team-plan-benefits {
+    margin-bottom: 25px;
+}
+
+.small-team-plan-benefits ul li:nth-child(1) {
+    color: #016ff9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
+    line-height: 1.5;
+}
+
+.small-team-plan-benefits ul li:nth-child(2) {
+    color: #016ff9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1f1ff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.small-team-plan-price {
+    color: #016ff9;
+    font-weight: 700;
+    font-size: 32px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.small-team-plan-button {
+    margin: 25px;
+}
+
+.small-team-plan-button a {
+    text-decoration: none;
+    color: #348efe;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px 35px;
+    transition: all 200ms ease-in-out;
+}
+
+.small-team-plan-button a:hover {
+    color: #fff;
+    background-color: #016ff9;
+    border-color: #016ff9;
+}
+
+.enterprise-plan-title {
+    margin-bottom: 30px;
+}
+
+.enterprise-plan-title h3 {
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.enterprise-plan-benefits {
+    margin-bottom: 25px;
+}
+
+.enterprise-plan-benefits ul li:nth-child(1) {
+    color: #016ff9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
+    line-height: 1.5;
+}
+
+.enterprise-plan-benefits ul li:nth-child(2) {
+    color: #016ff9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1f1ff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.enterprise-plan-price {
+    color: #016ff9;
+    font-weight: 700;
+    font-size: 32px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.enterprise-plan-button {
+    margin: 25px;
+}
+
+.enterprise-plan-button a {
+    text-decoration: none;
+    color: #348efe;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px 35px;
+    transition: all 200ms ease-in-out;
+}
+
+.enterprise-plan-button a:hover {
+    color: #fff;
+    background-color: #016ff9;
+    border-color: #016ff9;
+}
+
+@media (min-width: 900px) {
+    .plans {
+        flex-direction: row;
+    }
+
+    .personal-plan-box {
+        border-bottom: none;
+    }
+
+    .small-team-box {
+        border-bottom: none;
+    }
 }
