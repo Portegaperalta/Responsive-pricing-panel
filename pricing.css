@@ -362,9 +362,17 @@ table {
 
     .personal-plan-box {
         border-bottom: none;
+        border-right: 1px solid #60a9ff;
+        padding: 20px 40px;
     }
 
     .small-team-box {
         border-bottom: none;
+        border-right: 1px solid #60a9ff;
+        padding: 20px 40px;
+    }
+
+    .enterprise-plan-box {
+        padding: 20px 40px;
     }
 }
